@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    font-family: Lato,Helvetica,sans-serif;
+    color: #333447;
+}
+
+#table1 {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+th, td, tr {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 60em){
+    .container {
+        width: 90%;
+        max-width: fit-content;
+    }
+}
