@@ -15,9 +15,42 @@ th, td, tr {
     border: 1px solid black;
 }
 
+
+
+@media (min-width: 320px) and (max-width: 1990px){
+    .row2{
+    display: flex;
+    }
+
+.col {
+    flex: 1;
+    padding: 1em;
+    font-size: 15px !important;
+    }
+
+    .col img{
+        align-items: center;
+    }
+
+    .mobile-historical-places .row3{
+        display: flex; 
+    }
+    .mobile-historical-places .col {
+        flex: 1;
+        padding: 1em;
+    }
+}
+
 @media only screen and (min-width: 60em){
     .container {
         width: 90%;
         max-width: fit-content;
     }
+}
+.laptop-historical-places{display: block;}
+.mobile-historical-places{display: none;}
+
+@media screen and (max-width: 768px){
+    .laptop-historical-places{display: none;}
+    .mobile-historical-places{display: block;}
 }
