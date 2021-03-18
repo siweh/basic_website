@@ -25,15 +25,13 @@ th, td, tr {
 .col {
     flex: 1;
     padding: 1em;
-    font-size: 15px !important;
-    }
-
-    .col img{
-        align-items: center;
+    font-size: 5px !important;
     }
 
     .mobile-historical-places .row3{
         display: flex; 
+        font-size: xx-small;
+        font-weight: 500;
     }
     .mobile-historical-places .col {
         flex: 1;
