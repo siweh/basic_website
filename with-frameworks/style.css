@@ -1,7 +1,7 @@
 body {
     background-color: lightblue;
     font-family: Lato,Helvetica,sans-serif;
-    color: #333447;
+    color: black;
 }
 
 #table1 {
@@ -15,13 +15,16 @@ th, td, tr {
     border: 1px solid black;
 }
 
+.clearfix {
+    overflow: auto;
+}
 
+.img1 {
+    float: left;
+    padding-right: 23px;
+}
 
 @media (min-width: 320px) and (max-width: 1990px){
-    .row2{
-    display: flex;
-    }
-
 .col {
     flex: 1;
     padding: 1em;
@@ -30,8 +33,7 @@ th, td, tr {
 
     .mobile-historical-places .row3{
         display: flex; 
-        font-size: xx-small;
-        font-weight: 500;
+        font-size: 15px !important;
     }
     .mobile-historical-places .col {
         flex: 1;

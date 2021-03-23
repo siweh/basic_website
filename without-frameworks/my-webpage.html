@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: lightblue;">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,105 +8,123 @@
     <title>Document</title>
   </head>
   <body>
-    <img class="image column-profile" src="./../images/my_picture.jpg" alt="" />
-    <div class="column-profile">
-      <h1>Sanelisiwe</h1>
-      <h1>Madesi</h1>
+    <div class="container">
+        <img src="./../images/my_picture.jpg" alt="my-picture"/>
+        <h2>Sanelisiwe Madesi</h2>
     </div>
     <br />
     <br />
-    <div class="wrapper">
-      <div class="column-city">
-        <p>
-            <h2>New York City</h2>
-            I would really love to go to New York city, because its one of the<br/>
-            greatest cities in the world.There's magnificent architectural<br/>
-            treasures and more New York City attractions than you can count like<br/>
-            the Statue of Liberty, the Empire State Building, Grand Central<br/>
-            Station and many more.
-        </p>
-    </div>
-      <img class="city-img column-city"
+    <div class="clearfix">
+      <img
+        class="img1"
         src="./../images/new_york_city.jpg"
-        alt="my image"/>
+        alt="new-york-city"
+      />
+      <h3>New York City</h3>
+      <ul>
+        <li>One of the gretest cities in the world.</li>
+        <li>There's magnificent architectural treasures.</li>
+        <li>One of the cities attractions like The Empire State Building.</li>
+      </ul>
     </div>
-    <br/>
-    <br/>
-      <div class="wrapper-language">
-        <p>
-          <h4>A Foreign Language: Chinese</h4>
-          I would like to learn Chinese Language <br/>
-          because its so unique as it has<br/>
-          no cases, genders, tenses and plurals.
+    <br />
+    <div class="tables">
+      <p>
+        <h3>A Foreign Language: Chinese</h3>
+        I would like to learn Chinese Language
+        because it's so unique as it has
+        no cases, genders, tenses and plurals.
       </p>
-          <table id="table1" style="overflow-x:auto;">
-              <tr>
-                <th>English Phrase</th>
-                <th>Foreign Language</th>
-              </tr>
-              <tr>
-                <td>Hi, how are you?</td>
-                <td>你好你好嗎？</td>
-              </tr>
-              <tr>
-                <td>I can't hear you</td>
-                <td>我聽不到你的聲音</td>
-              </tr>
-              <tr>
-                <td>Where do you come from?</td>
-                <td>你從哪裡來的?</td>
-              </tr>
-            </table>
-      </div>
-      <div class="wrapper-places">
-        <h3>Three Historical places in the city of Johannesburg</h3>
-      </div>
-      <div class="wrapper-historical">
-        <img class="city-img column-city"
-            src="./../images/museum (1).jpg"
-            alt="my_image"
-          />
-        <div class="column-city">
-          <p>
-            <h2>The Apartheid Museum</h2>
-            The Apartheid Museum, the first of its kind, illustrates the rise <br/>
-            and fall of apartheid. An architectural consortium, comprising <br/>
-            several leading architectural firms, conceptualised the design of <br/>
-            the building on a seven-hectare stand. The museum is a super <br/>
-            example of design, space and landscape offering the international <br/>
-            community a unique South African experience.
-          </p>
+      <table id="table1">
+        <tr>
+          <th>English Phrase</th>
+          <th>Foreign Language</th>
+        </tr>
+        <tr>
+          <td>Hi, how are you?</td>
+          <td>你好你好嗎？</td>
+        </tr>
+        <tr>
+          <td>I can't hear you</td>
+          <td>我聽不到你的聲音</td>
+        </tr>
+        <tr>
+          <td>Where do you come from?</td>
+          <td>你從哪裡來的?</td>
+        </tr>
+      </table>
+    </div>
+    <div class="historical-wrapper">
+      <h3 style="align-items: center;">Historical places in the city of Johannesburg</h3>
+    </div>
+      <div id="historical-big-screen">
+        <div class="clearfix">
+            <img src="./../images/museum (1).jpg" alt="the apartheid museum" class="img2">
+            <h3>The Apartheid Museum</h3>
+            <ul>
+              <li>It illustrates the rise and fall of apartheid.</li>
+              <li>An architectural consortium and comprising several architectural firms.</li>
+              <li>The museum ia s super communuty a unique S.A experience.</li>
+            </ul>
         </div>
-        <img class="city-img column-city column-hist-2"
-            src="./../images/36_Constitution-Hill-Johannesburg.jpg"
-            alt="my_image"
-          />
-          <div class="column-city column-hist-2">
+        <div class="clearfix">
+          <img src="./../images/36_Constitution-Hill-Johannesburg.jpg" alt="constitutional hill" class="img3">
+          <h3>The Constitutional Hill</h3>
+          <ul>
+            <li>It tells the story of South Africa’s journey to democracy.</li>
+            <li>The site is a former prison and military fort</li>
+            <li>They were men and women of all races, creeds, ages and political agendas</li>
+          </ul>
+        </div>
+        <div class="clearfix">
+          <img src="./../images/new-mandela (1).jpg" alt="the mandela house museum" class="img4">
+          <h3>The Mandela House Museum</h3>
+          <ul>
+            <li>It was where Nelson Mandela lived between 1946 and 1962.</li>
+            <li>Mandela donated the house to the Soweto Heritage Trust to be a museum.</li>
+            <li>The house is a single-story red-brick matchbox built in 1945.</li>
+          </ul>
+        </div>
+      </div>
+      <div id="historical-small-screen">
+        <div class="clearfix history-row ">
+            <img src="./../images/museum (1).jpg" alt="the apartheid museum" style="float: right;">
             <p>
-              <h2>Constitution Hill</h2>
-              There is perhaps no other site of incarceration in South Africa that <br/>
-              imprisoned the sheer number of world-renowned men and women as those <br/>
-              held within the walls of Constitution Hill’s Old Fort, Women's Jail <br/>
-              and Number Four. Nelson Mandela. Mahatma Gandhi. Joe Slovo. <br/>
-              Albertina Sisulu. Winnie Madikizela-Mandela. Fatima Meer. They all <br/>
-              served time here.
+              <h3>The Apartheid Museum</h3>
+              <ul>
+                <li>It illustrates the rise and fall of apartheid.</li>
+                <li>An architectural consortium and comprising several architectural firms.</li>
+                <li>The museum ia s super communuty a unique S.A experience.</li>
+              </ul>
             </p>
-          </div>
-          <img class="city-img column-city"
-          src="./../images/new-mandela (1).jpg"
-          alt="my_image"
-          />
-          <div class="column-city">
+        </div>
+      </div>
+      <div id="historical-small-screen1">
+        <div class="clearfix history-row">
+            <img src="./../images/36_Constitution-Hill-Johannesburg.jpg" alt="constitutional hill" style="float: left; padding-right: 50px;">
             <p>
-              <h2>The Mandela House Museum</h2>
-              Nelson Mandela's humble house in Orlando West, Soweto, now called <br/>
-              the Mandela Family Museum, is an interesting stopover for those keen <br/>
-              to imbibe a slice of authentic history on the world's most famous <br/>
-              former prisoner.8115 Vilakazi Street, Orlando West in Soweto is <br/>
-              known to many simply as Mandela House. It was where Nelson Mandela <br/>
-              lived between 1946 and 1962.
+              <h3>The Constitutional Hill</h3>
+              <ul>
+                <li>It tells the story of South Africa’s journey to democracy.</li>
+                <li>The site is a former prison and military fort</li>
+                <li>They were men and women of all races, creeds, ages and political agendas</li>
+              </ul>
             </p>
-          </div>
+        </div>
+      </div>
+      <div id="historical-small-screen2">
+        <div class="clearfix history-row">
+            <img src="./../images/new-mandela (1).jpg" alt="the mandela house museum" style="float: right;">
+            <p>
+              <h3>The Mandela House Museum</h3>
+              <ul>
+                <li>It was where Nelson Mandela lived between 1946 and 1962.</li>
+                <li>Mandela donated the house to the Soweto Heritage Trust to be a museum.</li>
+                <li>The house is a single-story red-brick matchbox built in 1945.</li>
+              </ul>
+            </p>
+        </div>
+        <br/>
       </div>
   </body>
 </html>
