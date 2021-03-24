@@ -79,79 +79,62 @@ th, td, tr {
     #historical-big-screen{
         display: none;
     }
-    #historical-small-screen{
-        position: absolute;
-        display: flex;
-        top: 120%;
-        width: 100%;
-    }
-    #historical-small-screen1{
-        position: absolute;
-        display: flex;
-        top: 140%;
-        width: 100%;
-    }
-    #historical-small-screen2{
-        position: absolute;
-        display: flex;
-        top: 160%;
-        width: 100%;
-    }
-}
-
-@media (max-width: 541px) {
-    #historical-small-screen1{
-        position: absolute;
-        display: flex;
-        top: 150%;
-        width: 100%;
-    }
-    #historical-small-screen2{
-        position: absolute;
-        display: flex;
-        top: 180%;
-        width: 100%;
-    }
-}
-@media (max-width: 445px) {
     .historical-wrapper {
         position: absolute;
-        top: 120%;
+        top: 130%;
         text-align: center;
         margin: 2%;
     }
     #historical-small-screen{
         position: absolute;
         display: flex;
-        top: 130%;
+        top: 139%;
         width: 100%;
     }
     #historical-small-screen1{
         position: absolute;
         display: flex;
-        top: 160%;
+        top: 167%;
         width: 100%;
     }
     #historical-small-screen2{
         position: absolute;
         display: flex;
-        top: 190%;
-        width: 100%;
-    }
-}
-@media (max-width: 405px) {
-    #historical-small-screen2{
-        position: absolute;
-        display: flex;
-        top: 200%;
+        top: 192%;
         width: 100%;
     }
 }
 
-@media (max-width: 369px) {
+@media (max-width: 541px) {
     .historical-wrapper {
         position: absolute;
-        top: 130%;
+        top: 129%;
+        text-align: center;
+        margin: 2%;
+    }
+    #historical-small-screen{
+        position: absolute;
+        display: flex;
+        top: 140%;
+        width: 100%;
+    }
+    #historical-small-screen1{
+        position: absolute;
+        display: flex;
+        top: 169%;
+        width: 100%;
+    }
+    #historical-small-screen2{
+        position: absolute;
+        display: flex;
+        top: 198%;
+        width: 100%;
+    }
+}
+@media (max-width: 445px) {
+    .historical-wrapper {
+        position: absolute;
+        top: 132%;
         text-align: center;
         margin: 2%;
     }
@@ -170,7 +153,87 @@ th, td, tr {
     #historical-small-screen2{
         position: absolute;
         display: flex;
+        top: 200%;
+        width: 100%;
+    }
+}
+@media (max-width: 408px) {
+    #historical-small-screen{
+        position: absolute;
+        display: flex;
+        top: 150%;
+        width: 100%;
+    }
+    #historical-small-screen1{
+        position: absolute;
+        display: flex;
+        top: 184%;
+        width: 100%;
+    }
+    #historical-small-screen2{
+        position: absolute;
+        display: flex;
+        top: 226%;
+        width: 100%;
+    }
+    .historical-wrapper {
+        position: absolute;
+        top: 137%;
+        text-align: center;
+        margin: 2%;
+    }
+}
+
+@media (max-width: 369px) {
+    .historical-wrapper {
+        position: absolute;
+        top: 146%;
+        text-align: center;
+        margin: 2%;
+    }
+    #historical-small-screen{
+        position: absolute;
+        display: flex;
+        top: 158%;
+        width: 100%;
+    }
+    #historical-small-screen1{
+        position: absolute;
+        display: flex;
+        top: 193%;
+        width: 100%;
+    }
+    #historical-small-screen2{
+        position: absolute;
+        display: flex;
+        top: 235%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 332px) {
+    .historical-wrapper {
+        position: absolute;
+        top: 152%;
+        text-align: center;
+        margin: 2%;
+    }
+    #historical-small-screen{
+        position: absolute;
+        display: flex;
+        top: 162%;
+        width: 100%;
+    }
+    #historical-small-screen1{
+        position: absolute;
+        display: flex;
         top: 210%;
+        width: 100%;
+    }
+    #historical-small-screen2{
+        position: absolute;
+        display: flex;
+        top: 257%;
         width: 100%;
     }
 }
