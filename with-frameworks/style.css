@@ -3,6 +3,14 @@ body {
     font-family: Lato,Helvetica,sans-serif;
     color: black;
 }
+.my-profile {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
 
 #table1 {
     border-collapse: collapse;
@@ -47,10 +55,26 @@ th, td, tr {
         max-width: fit-content;
     }
 }
-.laptop-historical-places{display: block;}
+.laptop-historical-places{
+    display: block;
+    width: max-content;
+}
 .mobile-historical-places{display: none;}
 
 @media screen and (max-width: 768px){
     .laptop-historical-places{display: none;}
     .mobile-historical-places{display: block;}
+}
+
+@media (max-width: 420px){
+    .my-profile {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        margin-bottom: 2rem;
+    }
 }

@@ -1,14 +1,65 @@
-.historical-wrapper {
-    position: absolute;
-    top: 110%;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+    font-family: Lato,Helvetica,sans-serif;
+    color: black;
+}
+.my-profile {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.image-box {
+    overflow: hidden;
+    position: relative;
+    object-fit: fill;
+    width: 350px;
+    height: 350px;
+}
+.image-box-city {
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    object-fit: fill;
+}
+.which-city{
+   width: 80%; 
+   overflow: auto;
+   margin: 2% auto;
+}
+.tables {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#table1 {
+    border-collapse: collapse;
     text-align: center;
-    margin: 2%;
+    width: 80%;
+}
+
+th, td, tr {
+  padding: 15px;
+  border: 1px solid black;
 }
 #historical-big-screen{
     display: flex;
     position: absolute;
-    top: 118%;
-    width: 100%;
+    margin-left: 10%;
+    width: max-content;
+}
+.clearfix {
+    overflow: auto;
+    margin-top: 2%;
+    margin-right: 2%;
 }
 #historical-small-screen{
     display: none;
@@ -19,57 +70,8 @@
 #historical-small-screen2{
     display: none;
 }
-
-.img3 {
-    float: right;
-    padding-left: 20px;
-}
-
-
-body {
-    background-color: lightblue;
-    font-family: Lato,Helvetica,sans-serif;
-    color: black;
-}
-
-.container {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: fit-content;
-}
-
-.clearfix {
-    overflow: auto;
-    margin: 2%;
-}
-
-.img1 {
-    float: left;
-    padding-right: 20px;
-}
-
-.tables {
-    position: absolute;
-    width: 96%;
-    text-align: center;
-    margin: 2%;
-}
-
-#table1 {
-    border-collapse: collapse;
-    text-align: center;
-    width: 100%;
-}
-
-th, td, tr {
-  padding: 15px;
-  border: 1px solid black;
-}
-
-.img2, .img4 {
-    float: right;
-    padding-left: 20px;
+h4{
+    display: none;
 }
 .history-row{
     width: 100%;
@@ -79,161 +81,47 @@ th, td, tr {
     #historical-big-screen{
         display: none;
     }
-    .historical-wrapper {
-        position: absolute;
-        top: 130%;
-        text-align: center;
-        margin: 2%;
+    h4{
+        display: block;
     }
     #historical-small-screen{
-        position: absolute;
         display: flex;
-        top: 139%;
-        width: 100%;
+        width: 80%;
+        margin-left:10%;
+        margin-bottom: 5%;
     }
     #historical-small-screen1{
-        position: absolute;
         display: flex;
-        top: 167%;
-        width: 100%;
+        width: 80%;
+        margin-left:10%;
+        margin-bottom: 5%;
     }
     #historical-small-screen2{
-        position: absolute;
         display: flex;
-        top: 192%;
-        width: 100%;
+        width: 80%;
+        margin-left:10%;
+        margin-bottom: 5%;
+    }
+    h4{
+        margin-left: 10%;
     }
 }
-
-@media (max-width: 541px) {
-    .historical-wrapper {
-        position: absolute;
-        top: 129%;
-        text-align: center;
-        margin: 2%;
-    }
-    #historical-small-screen{
-        position: absolute;
+@media (max-width: 420px){
+    .my-profile {
+        width: 80%;
+        margin: auto;
         display: flex;
-        top: 140%;
-        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        margin-bottom: 2rem;
     }
-    #historical-small-screen1{
-        position: absolute;
-        display: flex;
-        top: 169%;
-        width: 100%;
-    }
-    #historical-small-screen2{
-        position: absolute;
-        display: flex;
-        top: 198%;
-        width: 100%;
-    }
-}
-@media (max-width: 445px) {
-    .historical-wrapper {
-        position: absolute;
-        top: 132%;
-        text-align: center;
-        margin: 2%;
-    }
-    #historical-small-screen{
-        position: absolute;
-        display: flex;
-        top: 140%;
-        width: 100%;
-    }
-    #historical-small-screen1{
-        position: absolute;
-        display: flex;
-        top: 170%;
-        width: 100%;
-    }
-    #historical-small-screen2{
-        position: absolute;
-        display: flex;
-        top: 200%;
-        width: 100%;
-    }
-}
-@media (max-width: 408px) {
-    #historical-small-screen{
-        position: absolute;
-        display: flex;
-        top: 150%;
-        width: 100%;
-    }
-    #historical-small-screen1{
-        position: absolute;
-        display: flex;
-        top: 184%;
-        width: 100%;
-    }
-    #historical-small-screen2{
-        position: absolute;
-        display: flex;
-        top: 226%;
-        width: 100%;
-    }
-    .historical-wrapper {
-        position: absolute;
-        top: 137%;
-        text-align: center;
-        margin: 2%;
-    }
-}
-
-@media (max-width: 369px) {
-    .historical-wrapper {
-        position: absolute;
-        top: 146%;
-        text-align: center;
-        margin: 2%;
-    }
-    #historical-small-screen{
-        position: absolute;
-        display: flex;
-        top: 158%;
-        width: 100%;
-    }
-    #historical-small-screen1{
-        position: absolute;
-        display: flex;
-        top: 193%;
-        width: 100%;
-    }
-    #historical-small-screen2{
-        position: absolute;
-        display: flex;
-        top: 235%;
-        width: 100%;
-    }
-}
-
-@media (max-width: 332px) {
-    .historical-wrapper {
-        position: absolute;
-        top: 152%;
-        text-align: center;
-        margin: 2%;
-    }
-    #historical-small-screen{
-        position: absolute;
-        display: flex;
-        top: 162%;
-        width: 100%;
-    }
-    #historical-small-screen1{
-        position: absolute;
-        display: flex;
-        top: 210%;
-        width: 100%;
-    }
-    #historical-small-screen2{
-        position: absolute;
-        display: flex;
-        top: 257%;
-        width: 100%;
+    .image-box {
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        position: relative;
+        object-fit: fill;
     }
 }
