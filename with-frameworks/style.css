@@ -29,7 +29,9 @@ th, td, tr {
 
 .img1 {
     float: left;
-    padding-right: 23px;
+    padding-right: 50px;
+    width: 350px;
+    height: 250px;
 }
 
 @media (min-width: 320px) and (max-width: 1990px){
@@ -66,7 +68,7 @@ th, td, tr {
     .mobile-historical-places{display: block;}
 }
 
-@media (max-width: 420px){
+@media (max-width: 768px){
     .my-profile {
         width: 80%;
         margin: auto;
