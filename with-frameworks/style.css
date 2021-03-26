@@ -59,7 +59,7 @@ th, td, tr {
 }
 .laptop-historical-places{
     display: block;
-    width: max-content;
+    width: initial;
 }
 .mobile-historical-places{display: none;}
 

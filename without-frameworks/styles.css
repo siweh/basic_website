@@ -54,7 +54,7 @@ th, td, tr {
     display: flex;
     position: absolute;
     margin-left: 10%;
-    width: max-content;
+    width: initial;
 }
 .clearfix {
     overflow: auto;
